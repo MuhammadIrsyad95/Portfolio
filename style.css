@@ -17,8 +17,9 @@ section::before {
   border: 3px solid black;
   border-radius: 32px;
 }
-.btn.button:hover {
-  border: 3px;
+.btn.button:hover,
+.btn.button.active {
+  border: 3px solid black;
   background-color: black;
   color: white;
 }
